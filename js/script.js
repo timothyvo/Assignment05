@@ -4,10 +4,10 @@ window.addEventListener("load", () => {
         e.preventDefault();
         let id = $("id").value;
         let name = $("name").value;
-        let email = $("email").value;
         let extension = $("ext").value;
+        let email = $("email").value;
         let department = $("department").value;
-        console.log(`ID: ${id}\nName: ${name}\nEmail: ${email}\nExtension: ${extension}\nDepartment: ${department}`);
+        console.log(`ID: ${id}\nName: ${name}\nExtension: ${extension}\nEmail: ${email}\nDepartment: ${department}`);
         $("empForm").reset();
     });
 });
